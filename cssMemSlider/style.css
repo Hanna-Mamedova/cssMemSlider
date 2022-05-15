@@ -51,3 +51,39 @@
 .active {
     display: block;
 }
+
+/* CONTROLS */
+.controls {
+    display: flex;
+    width: fit-content;
+    gap: 0.5rem;
+}
+
+.control {
+    height: 1.5rem;
+    width: 1.5rem;
+
+    border-radius: 50%;
+    border: 0.25rem solid rgb(78, 60, 60);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.control:hover {
+    background-color: rgb(78, 60, 60);
+}
+
+.control:active {
+    background-color: rgb(78, 60, 60);
+}
+
+.control div {
+    display: block;
+    width: 170%;
+    height: 170%;
+    cursor: pointer;
+}
+
+
+
