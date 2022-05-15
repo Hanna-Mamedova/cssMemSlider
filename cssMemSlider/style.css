@@ -49,6 +49,20 @@ body {
     grid-template-areas: "txt ctr";
 }
 
+@media only screen and (max-width: 390px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .container2 {
+        grid-template-areas: "ctr" "txt";
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+  }
+
 /* CAPTIONS */
 .captions {
     display: flex;
