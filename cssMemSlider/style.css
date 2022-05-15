@@ -21,7 +21,6 @@ body {
 
 /* IMAGES */
 
-/* slider */
 .container1 {
     position: relative;
     width: 100%;
@@ -32,7 +31,6 @@ body {
     overflow: hidden;
 }
 
-/* images */
 .images {
     display: flex;
     width: 100%;
@@ -120,18 +118,38 @@ body {
 
 /* ACTIVE CONTROL */
 #btn1:checked ~ .container2 #control1 {
-    background-color: rgb(78, 60, 60);;
+    background-color: rgb(78, 60, 60);
 }
 
 #btn2:checked ~ .container2 #control2 {
-    background-color: rgb(78, 60, 60);;
+    background-color: rgb(78, 60, 60);
 }
 
 #btn3:checked ~ .container2 #control3 {
-    background-color: rgb(78, 60, 60);;
+    background-color: rgb(78, 60, 60);
 }
 
 #btn4:checked ~ .container2 #control4 {
-    background-color: rgb(78, 60, 60);;
+    background-color: rgb(78, 60, 60);
+}
+
+#btn1:checked ~ .container2 #control1:hover {
+    background-color: wheat;
+    border-color: wheat;
+}
+
+#btn2:checked ~ .container2 #control2:hover {
+    background-color: wheat;
+    border-color: wheat;
+}
+
+#btn3:checked ~ .container2 #control3:hover {
+    background-color: wheat;
+    border-color: wheat;
+}
+
+#btn4:checked ~ .container2 #control4:hover {
+    background-color: wheat;
+    border-color: wheat;
 }
 
