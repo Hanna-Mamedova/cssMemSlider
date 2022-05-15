@@ -41,6 +41,7 @@ body {
 
 .images img {
     width: 100%;
+    border-radius: 1rem;
 }
 
 
@@ -93,10 +94,6 @@ body {
     background-color: rgb(78, 60, 60);
 }
 
-.control:active {
-    background-color: rgb(78, 60, 60);
-}
-
 .control div {
     display: block;
     width: 170%;
@@ -121,4 +118,20 @@ body {
     transform: translate(-300%);
 }
 
+/* ACTIVE CONTROL */
+#btn1:checked ~ .container2 #control1 {
+    background-color: rgb(78, 60, 60);;
+}
+
+#btn2:checked ~ .container2 #control2 {
+    background-color: rgb(78, 60, 60);;
+}
+
+#btn3:checked ~ .container2 #control3 {
+    background-color: rgb(78, 60, 60);;
+}
+
+#btn4:checked ~ .container2 #control4 {
+    background-color: rgb(78, 60, 60);;
+}
 
